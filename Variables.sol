@@ -10,7 +10,7 @@ contract Variables {
     
     function getAddress() external view returns (address, uint, uint, uint){
         uint256 a = 10; // Local variables
-        // below is global variables
+        // below is global variable
         address newAdd = msg.sender;
         uint256 time = block.timestamp;
         uint256 number = block.number;
